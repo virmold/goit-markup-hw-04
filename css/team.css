@@ -1,0 +1,56 @@
+.team-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.team {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.person {
+    background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+.person-name {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #2E2F42;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.person-job {
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.person img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.wr {
+    padding: 32px 16px;
+}
