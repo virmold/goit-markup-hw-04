@@ -9,7 +9,7 @@
     padding-left: 15px;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 .footer-info-block {
